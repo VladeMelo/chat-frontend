@@ -1,0 +1,28 @@
+.list__item {
+  list-style: none;
+}
+
+.list__item.list__item--mine {
+  text-align: right;
+}
+
+.message {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+.message.message--mine {
+  background: #c3e88d;
+  border-color: #82be27;
+  text-align: right;
+}
+
+.message.message--other {
+  background: #89ddff;
+  border-color: #1abeff;
+}
+  
